@@ -3,9 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      
+      <class name="com.actitime.test.ActitimeDeleteLeaveTest"/>
       <class name="com.actitime.test.ActitimeLoginTest"/>
-      
+      <class name="com.actitime.test.ActitimeCreateLeaveTest"/>
+      <class name="com.actitime.test.ActitimeDeleteWork"/>
+      <class name="com.actitime.test.ActitimeEditWork"/>
+      <class name="com.actitime.test.ActitimeCreateWorkTest"/>
+      <class name="com.actitime.test.Testing"/>
+      <class name="com.actitime.test.ActitimeEditLeaveTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
